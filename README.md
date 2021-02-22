@@ -1,5 +1,5 @@
 
-# FastdlUpdater
+# maplistGenerator
 
 Simple python script to update and maintain the mapcycle and maplist files for games such as CS:GO.
 
