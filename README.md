@@ -23,4 +23,7 @@ Simple python script to update and maintain the mapcycle and maplist files for g
 
 # Usage:
 
-Edit the ``gameRootFolder`` variable in ``maplistGenerator.py`` to point directly into the game root folder, relative to the ``maplistGenerator.py`` script (Only ``/`` as a separator!). You can also edit the ``blackListPath`` parameter to blacklist default files you don't want to add to the fastdl. Then you can run the ``maplistGenerator.py`` script, and it should update your mapcyclte.txt and maplist.txt files. You can also run the script with the ``workshop``parameter, like so: ``python3 maplistGenerator.py workshop``, which will make the script look through the workshop folder as well.
+* Edit the ``gameRootFolder`` variable in ``maplistGenerator.py`` to point directly into the game root folder, relative to the ``maplistGenerator.py`` script (Only ``/`` as a separator!). 
+* You can also edit the ``blackListPath`` parameter to blacklist default files you don't want to add to the fastdl. 
+* Then you can run the ``maplistGenerator.py`` script, and it should update your mapcyclte.txt and maplist.txt files. 
+* You can also run the script with the ``workshop``parameter, like so: ``python3 maplistGenerator.py workshop``, which will make the script look through the workshop folder as well.
